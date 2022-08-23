@@ -1,0 +1,145 @@
+@import "../static/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,500;1,400;0,600&display=swap');
+
+@font-face {
+    font-family: 'NewFont';
+    src: url(../fonts/SnarskyOldStyleNarrow.ttf) format('ttf'), url(../fonts/SnarskyOldStyleNarrow.ttf) format('woff');
+    font-weight: 400;
+}
+
+:root {
+    --container-width: 350px;
+    --fon-color: rgb(255, 255, 255);
+    --container-inside: 312px;
+    --background-color: #ffffff;
+}
+
+body {
+    background: url('../img/back.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.container-top{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.container-dish {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.container-inside {
+    max-width: var(--container-inside);
+    margin: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-info {
+    max-width: var(--container-inside);
+    margin: 0 16px;
+    align-items: center;
+}
+
+.block {
+    height: auto;
+    background-color: var(--fon-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+h1 {
+    font-family: 'NewFont';
+    color: #ba1e38;
+    font-size: 60px;
+    font-weight: 600;
+    padding-right: 30px;
+    margin: 15px 0;
+}
+
+.title-category {
+    background: var(--background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-top: 19px;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: 'NewFont';
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.dish-bord {
+    opacity: 0.8;
+    background: var(--background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'NewFont';
+    font-size: 20px;
+    font-weight: 600;
+    color: #ba1e38;
+}
+
+.price {
+   margin-left: 150px; 
+}
+
+p {
+    font-family: 'NewFont';
+}
+
+li {
+    font-family: 'NewFont';
+}
+
+h4 {
+    font-style: 'Cormorant Infant';
+}
+
+h5 {
+    font-style: 'Cormorant Infant';
+    font-size: 20px;
+    font-weight: 600;
+    color: #ba1e38;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+h6 {
+    font-style: 'Cormorant Infant';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
