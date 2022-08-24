@@ -15,8 +15,9 @@
 }
 
 body {
-    background: url('../img/back.png') no-repeat fixed;
+    background: url('../img/back.png') no-repeat;
     background-size: 100%;
+    background-attachment:  fixed;
 }
 
 .container {
